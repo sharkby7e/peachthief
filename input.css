@@ -7,9 +7,10 @@ body {
 }
 
 .img-container {
-  width: 600px;
-  height: 600px;
+  width: 800px;
+  height: 800px;
   background-image: url('./public/flower.jpg');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
+
