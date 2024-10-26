@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Lato"
+}
+
+.img-container {
+  width: 800px;
+  height: 800px;
+  background-image: url('./public/flower.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
