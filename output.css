@@ -704,16 +704,6 @@ video {
   line-height: 1;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-emerald-900 {
-  --tw-text-opacity: 1;
-  color: rgb(6 78 59 / var(--tw-text-opacity));
-}
-
 .text-violet-500 {
   --tw-text-opacity: 1;
   color: rgb(139 92 246 / var(--tw-text-opacity));
@@ -738,7 +728,7 @@ body {
   font-family: "Lato"
 }
 
-#title {
+.title {
   font-family: 'Jazz';
 }
 
@@ -751,10 +741,6 @@ body {
 @media (min-width: 768px) {
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:flex-row {
