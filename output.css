@@ -564,6 +564,11 @@ video {
   margin-right: auto;
 }
 
+.-my-48 {
+  margin-top: -12rem;
+  margin-bottom: -12rem;
+}
+
 .inline {
   display: inline;
 }
@@ -867,6 +872,10 @@ body {
 
   .lg\:h-full {
     height: 100%;
+  }
+
+  .lg\:h-screen {
+    height: 100vh;
   }
 
   .lg\:min-h-svh {
