@@ -554,13 +554,14 @@ video {
   display: none;
 }
 
+.-my-36 {
+  margin-top: -9rem;
+  margin-bottom: -9rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.block {
-  display: block;
 }
 
 .flex {
@@ -571,8 +572,8 @@ video {
   display: grid;
 }
 
-.hidden {
-  display: none;
+.h-3\/5 {
+  height: 60%;
 }
 
 .h-auto {
@@ -583,12 +584,8 @@ video {
   height: 100%;
 }
 
-.max-h-screen {
-  max-height: 100vh;
-}
-
-.min-h-dvh {
-  min-height: 100dvh;
+.h-svh {
+  height: 100svh;
 }
 
 .min-h-screen {
@@ -681,10 +678,6 @@ video {
   --tw-gradient-to: #fdba74 var(--tw-gradient-to-position);
 }
 
-.bg-fixed {
-  background-attachment: fixed;
-}
-
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
@@ -706,25 +699,6 @@ video {
 
 .p-4 {
   padding: 1rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.pb-36 {
-  padding-bottom: 9rem;
 }
 
 .text-center {
@@ -764,38 +738,19 @@ body {
   color: white;
 }
 
-.hero {
-  background-image: url(./public/hero.png);
-  background-repeat: no-repeat;
-  background-attachment: local;
-  background-size: contain;
-}
-
 .title {
   font-family: 'Jazz';
 }
 
-@media (min-width: 640px) {
-  .sm\:block {
-    display: block;
-  }
-
-  .sm\:hidden {
-    display: none;
-  }
-
-  .sm\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  .sm\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-}
-
 @media (min-width: 768px) {
+  .md\:m-0 {
+    margin: 0px;
+  }
+
+  .md\:h-full {
+    height: 100%;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -811,6 +766,18 @@ body {
 }
 
 @media (min-width: 1024px) {
+  .lg\:h-auto {
+    height: auto;
+  }
+
+  .lg\:min-h-svh {
+    min-height: 100svh;
+  }
+
+  .lg\:p-6 {
+    padding: 1.5rem;
+  }
+
   .lg\:p-8 {
     padding: 2rem;
   }
