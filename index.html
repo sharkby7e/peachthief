@@ -10,19 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   </head>
-  <body class="bg-gradient-to-b from-rose-300 via-amber-200 to-orange-300">
+  <!-- <body class="bg-gradient-to-b from-rose-300 via-amber-200 to-orange-300"> -->
+  <body class="bg-zinc-800">
     <div class='h-full w-full'>
-      <div class='h-screen flex items-center justify-center flex-col'>
-        <h1 class="title text-8xl text-center text-violet-500">Peach Thief</h1>
-        <div class='flex w-2/3 gap-2 justify-center'>
-          <a href="#about">About us</a>
-          <p>&hearts;</p>
-          <a href="#projects">Projects</a>
-        </div>
+      <div class="mx-auto md:w-full h-screen">
+        <div class='hidden sm:block hero bg-no-repeat'></div>
+        <div class='block sm:hidden hero-small bg-no-repeat max-h-svh'></div>
       </div>
       <div id="about" class='p-2 lg:p-8 w-11/12 mx-auto min-h-screen'>
         <div class="p-2 flex flex-col space-y-6">
-          <h1 class="title text-center lg:text-start text-6xl lg:text-8xl text-violet-600">Meet the Thieves</h1>
+          <h1 class="title bg-clip-text text-transparent bg-gradient-to-r from-rose-300 via-amber-200 to-orange-300 text-center lg:text-start text-6xl lg:text-8xl">Meet the Thieves</h1>
           <div class="flex flex-col space-y-6 xl:flex-row items-center justify-between">
             <div class="flex flex-1 items-center justify-center">
               <img src="./public/Matt and Reina.jpg" alt="Matt and Reina" class="rounded-full w-3/4 md:w-1/2">
@@ -41,68 +38,53 @@
       <!-- Image gallery  -->
       <div id="projects" class='p-2 lg:p-8 w-11/12 mx-auto min-h-screen'>
         <div class="p-2 flex flex-col space-y-6">
-          <h1 class="title text-8xl text-violet-500">Projects</h1>
-
+          <h1 class="title leading-loose bg-clip-text text-transparent bg-gradient-to-r from-rose-300 via-amber-200 to-orange-300 text-center lg:text-start text-6xl lg:text-8xl text-orange-300">Projects</h1>
           <div class='flex flex-col space-y-6'>
             <div class="grid grid-cols-2 gap-4">
               <div class="grid gap-4">
                 <div>
-                  <a href="https://www.zspace.org/redshades", target="_blank" >
-                    <img
-                      class="h-auto max-w-full rounded-lg object-cover object-center"
-                      src="./public/Red Shades banner - by Raisa Yavneh.jpg"
-                      alt="red shades banner"
-                    />
-                  </a>
+                  <img
+                    class="h-auto max-w-full rounded-lg object-cover object-center"
+                    src="./public/Red Shades banner - by Raisa Yavneh.jpg"
+                    alt="red shades banner"
+                  />
                 </div>
                 <div>
-                  <a href="https://www.zspace.org/redshades", target="_blank" >
-                    <img
-                      class="h-auto max-w-full rounded-lg object-cover object-center "
-                      src="./public/Red Shades Bus.jpg"
-                      alt="get on the bus"
-                    />
-                  </a>
+                  <img
+                    class="h-auto max-w-full rounded-lg object-cover object-center "
+                    src="./public/Red Shades Bus.jpg"
+                    alt="get on the bus"
+                  />
                 </div>
                 <div>
-                  <a href="https://www.zspace.org/redshades", target="_blank" >
-                    <img
-                      class="h-auto max-w-full rounded-lg object-cover object-center"
-                      src="./public/Red Shades Tommy.jpg"
-                      alt="red shades tommy"
-                    />
-                  </a>
+                  <img
+                    class="h-auto max-w-full rounded-lg object-cover object-center"
+                    src="./public/Red Shades Tommy.jpg"
+                    alt="red shades tommy"
+                  />
                 </div>
               </div>
               <div class="grid gap-4">
                 <div>
-
-                  <a href="https://www.zspace.org/redshades", target="_blank" >
-                    <img
-                      class="h-auto max-w-full rounded-lg object-cover object-center"
-                      src="./public/Red Shades Ida.jpg"
-                      alt="red shades ida"
-                    />
-                  </a>
+                  <img
+                    class="h-auto max-w-full rounded-lg object-cover object-center"
+                    src="./public/Red Shades Ida.jpg"
+                    alt="red shades ida"
+                  />
                 </div>
                 <div>
-
-                  <a href="https://www.zspace.org/redshades", target="_blank" >
-                    <img
-                      class="h-auto max-w-full rounded-lg object-cover object-center"
-                      src="./public/Red Shades Sherry.jpg"
-                      alt="red shades sherry"
-                    />
-                  </a>
+                  <img
+                    class="h-auto max-w-full rounded-lg object-cover object-center"
+                    src="./public/Red Shades Sherry.jpg"
+                    alt="red shades sherry"
+                  />
                 </div>
                 <div>
-                  <a href="https://www.zspace.org/redshades", target="_blank" >
-                    <img
-                      class="h-auto max-w-full rounded-lg object-cover object-center"
-                      src="./public/Red Shades logo - by Raisa Yavneh (1).jpg"
-                      alt="red shades square logo"
-                    />
-                  </a>
+                  <img
+                    class="h-auto max-w-full rounded-lg object-cover object-center"
+                    src="./public/Red Shades logo - by Raisa Yavneh (1).jpg"
+                    alt="red shades square logo"
+                  />
                 </div>
               </div>
             </div>
@@ -124,7 +106,7 @@
               />
             </a>
             <p class="md:text-2xl">
-              TOTALLY NORMAL: A Co-Dependent Trans Friendship Musical is the story of Tabitha and Squid, broke stoner roommates who do everything together—like running the illegal, weed-fueled Hotbox Salon out of their apartment in Oakland, CA. Can their business survive Squid’s problem drinking, Tabitha’s risky hookup with their building’s super, and the everyday struggles of working class trans life? No spoilers, but it’s gonna get messy!
+              <a href='' target='_blank' class='underline'>Totally Normal</a>: A Co-Dependent Trans Friendship Musical is the story of Tabitha and Squid, broke stoner roommates who do everything together—like running the illegal, weed-fueled Hotbox Salon out of their apartment in Oakland, CA. Can their business survive Squid’s problem drinking, Tabitha’s risky hookup with their building’s super, and the everyday struggles of working class trans life? No spoilers, but it’s gonna get messy!
               In this brand new show, trans people aren’t punchlines—they deliver punchlines. Combining the spirit of groundbreaking queer musicals like Falsettos and Fun Home with the broad, raunchy humor of Avenue Q, TOTALLY NORMAL is a loving, hilarious tribute to the humor and humanity at the heart of trans friendships.
             </p>
           </div>
