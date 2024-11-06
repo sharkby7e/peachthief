@@ -12,6 +12,13 @@ body {
   color: white;
 }
 
+.hero {
+  background-image: url(./public/hero.png);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: contain;
+}
+
 .title {
   font-family: 'Jazz';
 }
