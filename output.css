@@ -625,6 +625,10 @@ video {
   height: 600px;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -771,6 +775,11 @@ video {
   padding: 1rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -890,6 +899,10 @@ body {
     min-height: 100lvh;
   }
 
+  .lg\:w-auto {
+    width: auto;
+  }
+
   .lg\:max-w-screen-2xl {
     max-width: 1536px;
   }
@@ -904,6 +917,11 @@ body {
 
   .lg\:p-12 {
     padding: 3rem;
+  }
+
+  .lg\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .lg\:text-start {
