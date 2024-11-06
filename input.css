@@ -16,21 +16,3 @@ body {
   font-family: 'Jazz';
 }
 
-.hero-small {
-  background-image: url('./public/hero-vert.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-}
-
-.hero {
-  background-image: url('./public/hero.png');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-}
-
