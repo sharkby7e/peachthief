@@ -856,6 +856,11 @@ body {
     margin-bottom: 9rem;
   }
 
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .lg\:h-auto {
     height: auto;
   }
@@ -874,6 +879,10 @@ body {
 
   .lg\:min-h-lvh {
     min-height: 100lvh;
+  }
+
+  .lg\:max-w-screen-2xl {
+    max-width: 1536px;
   }
 
   .lg\:p-6 {
