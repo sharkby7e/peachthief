@@ -772,11 +772,6 @@ video {
   color: transparent;
 }
 
-.text-zinc-800 {
-  --tw-text-opacity: 1;
-  color: rgb(39 39 42 / var(--tw-text-opacity));
-}
-
 .underline {
   text-decoration-line: underline;
 }
