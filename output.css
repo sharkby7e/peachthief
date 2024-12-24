@@ -577,6 +577,10 @@ video {
   margin-bottom: 3rem;
 }
 
+.-mt-4 {
+  margin-top: -1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -783,6 +787,10 @@ video {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -791,6 +799,16 @@ video {
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-orange-300 {
@@ -837,6 +855,10 @@ body {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:text-right {
+    text-align: right;
   }
 
   .md\:text-2xl {
